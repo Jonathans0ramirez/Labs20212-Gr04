@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Labs20212-Gr04</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_lastname">Apellidos</string>
+    <string name="rbtn_male">Masculino</string>
+    <string name="rbtn_female">Femenino</string>
+    <string name="text_gender">Género:</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="hint_birthdate">Fecha de nacimiento</string>
+    <string name="hint_studies">Escolaridad</string>
+    <string name="hint_phone">Teléfono</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_country">País</string>
+    <string name="hint_city">Ciudad</string>
+    <string name="hint_address">Dirección</string>
 </resources>
