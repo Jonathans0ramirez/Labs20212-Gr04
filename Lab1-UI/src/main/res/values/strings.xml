@@ -6,8 +6,12 @@
     <string name="rbtn_female">Femenino</string>
     <string name="text_gender">Género:</string>
     <string name="btn_next">Siguiente</string>
-    <string name="hint_birthdate">Fecha de nacimiento</string>
-    <string name="hint_studies">Escolaridad</string>
+    <string name="hint_birthdate">Fecha de nacimiento---</string>
+    <string name="hint_studies">Grado de escolaridad</string>
+    <string name="hint_studies_primary">Primaria</string>
+    <string name="hint_studies_hight_school">Secundaria</string>
+    <string name="hint_studies_university">Universidad</string>
+    <string name="hint_studies_other">Otro</string>
     <string name="hint_phone">Teléfono</string>
     <string name="hint_email">Correo</string>
     <string name="hint_country">País</string>
