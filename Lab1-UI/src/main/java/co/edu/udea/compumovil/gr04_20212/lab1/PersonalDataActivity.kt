@@ -1,7 +1,9 @@
 package co.edu.udea.compumovil.gr04_20212.lab1
 
+import android.content.res.Configuration
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.LinearLayout
 import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
 
@@ -17,5 +19,16 @@ class PersonalDataActivity : AppCompatActivity() {
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, listStudies)
         spinner.adapter = adapter
+
+        // Orientation
+
+        var linealLayoutName = findViewById<LinearLayout>(R.id.name_area)
+        if (resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            // landscape
+            linealLayoutName.orientation = LinearLayout.HORIZONTAL;
+        } else {
+            // portrait
+            linealLayoutName.orientation  = LinearLayout.VERTICAL;
+        }
     }
 }

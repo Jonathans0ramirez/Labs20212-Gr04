@@ -12,39 +12,41 @@
         android:id="@+id/name_area"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_name"
-            app:endIconMode="clear_text"
             app:boxBackgroundColor="@color/icons"
+            app:endIconMode="clear_text"
             app:startIconDrawable="@drawable/ic_person"
             app:startIconTint="@color/accent">
+
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etName"
-                android:layout_width="match_parent"
+                android:layout_width="377dp"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName">
-            </com.google.android.material.textfield.TextInputEditText>
+                android:inputType="textPersonName"></com.google.android.material.textfield.TextInputEditText>
         </com.google.android.material.textfield.TextInputLayout>
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilLastname"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/hint_lastname"
-            app:endIconMode="clear_text"
             app:boxBackgroundColor="@color/icons"
+            app:endIconMode="clear_text"
             app:startIconDrawable="@drawable/ic_person_add"
             app:startIconTint="@color/accent">
+
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etLastname"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName">
-            </com.google.android.material.textfield.TextInputEditText>
+                android:layout_width="374dp"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"></com.google.android.material.textfield.TextInputEditText>
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 
@@ -139,7 +141,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@+id/birthdate_area"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="-3dp"
