@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Labs20212-Gr04</string>
+    <string name="personal_data_title">Personal Information</string>
+    <string name="contact_data_title">Contact Information</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="rbtn_male">Male</string>
+    <string name="rbtn_female">Female</string>
+    <string name="text_gender">Genre:</string>
+    <string name="btn_next">Next</string>
+    <string name="hint_birthdate">Date of Birth</string>
+    <string name="hint_studies">Level of Education</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_country">Country</string>
+    <string name="hint_city">City</string>
+    <string name="hint_address">Address</string>
+    <string-array name="scolarity_array">
+        <item>Elementary School</item>
+        <item>Middle School</item>
+        <item>High School</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="latam_countries">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guayana Francesa</item>
+        <item>Granada</item>
+        <item>Guatemala</item>
+        <item>Guayana</item>
+        <item>Haití</item>
+        <item>Honduras</item>
+        <item>Jamaica</item>
+        <item>México</item>
+        <item>Nicaragua</item>
+        <item>Paraguay</item>
+        <item>Panamá</item>
+        <item>Perú</item>
+        <item>Puerto Rico</item>
+        <item>República Dominicana</item>
+        <item>Surinam</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+    <string name="phone_validator">This field cannot be empty</string>
+    <string name="email_validator">This field cannot be empty</string>
+    <string name="country_validator">This field cannot be empty</string>
+    <string name="logo_genero">Genre Logo</string>
+</resources>
